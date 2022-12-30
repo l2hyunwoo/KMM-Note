@@ -45,5 +45,5 @@ dependencies {
     kapt(libs.hilt.compiler)
     kapt(libs.hilt.androidx.compiler)
     implementation(libs.hilt.androidx.navigation)
-    implementation(libs.desugar.libs)
+    coreLibraryDesugaring(libs.desugar.libs)
 }
